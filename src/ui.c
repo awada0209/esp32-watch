@@ -9,7 +9,11 @@
 ///////////////////// VARIABLES ////////////////////
 void slide_Animation(lv_obj_t * TargetObject, int delay);
 
-
+//SCREEN: ui_spinner
+void ui_spinner_screen_init(void);
+lv_obj_t * ui_spinner;
+lv_obj_t * spinner;
+lv_obj_t * ui____initial_actions0;
 // SCREEN: ui_home
 void ui_home_screen_init(void);
 lv_obj_t * ui_home;
